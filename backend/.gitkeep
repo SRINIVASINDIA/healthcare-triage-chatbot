@@ -1,0 +1,4 @@
+# Backend directory
+# This directory will contain the Lambda function code:
+# - lambda_function.py
+# - requirements.txt
