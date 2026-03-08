@@ -256,7 +256,7 @@ pytest --cov=backend --cov-report=html
 - Guidance on when to consult a doctor
 - Clear, actionable advice for home management
 
-![Low Severity Example](docs/screenshots/low-severity.png)
+![Low Severity Example](https://www.dropbox.com/scl/fi/p6r35xm23okiqg6v3ywma/low.png?rlkey=htyvjxg0rvbnmkviegrq6mq3h&st=zd9i2hln&dl=0)
 
 ---
 
@@ -269,7 +269,7 @@ pytest --cov=backend --cov-report=html
 - No delays - instant critical symptom recognition
 - Life-saving emergency detection system
 
-![Emergency Detection Example](docs/screenshots/emergency.png)
+![Emergency Detection Example](https://www.dropbox.com/scl/fi/b81f9qwl8t5tedibs9mlq/severe.png?rlkey=902994sp0juauburn0xpntxyw&st=3il8u8ao&dl=0)
 
 ---
 
@@ -283,7 +283,7 @@ pytest --cov=backend --cov-report=html
 - Detailed self-care instructions with medication recommendations
 - Clear criteria for when to seek medical attention
 
-![Moderate Severity Example](docs/screenshots/moderate-severity.png)
+![Moderate Severity Example](https://www.dropbox.com/scl/fi/8ed43200u1zd142s15z0j/moderate.png?rlkey=7iks8z6stbqv7tmfi5zi8sadt&st=1iuo8y0a&dl=0)
 
 ---
 
