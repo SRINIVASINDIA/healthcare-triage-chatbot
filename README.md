@@ -12,7 +12,6 @@ An AI-powered medical symptom analysis and triage chatbot with ChatGPT-like conv
 - 💬 **Multi-Turn Dialogue** - Remembers conversation history for context-aware responses
 - 🚨 **Emergency Detection** - Real-time identification of critical symptoms with immediate alerts
 - 📊 **Intelligent Triage** - Assesses symptom severity (LOW, MODERATE, SEVERE)
-- 🔄 **Follow-Up Questions** - Asks clarifying questions to gather complete information
 - 💾 **Session Management** - 24-hour conversation persistence with automatic cleanup
 - 🔒 **Enterprise Security** - Input validation, PII redaction, rate limiting
 
@@ -336,12 +335,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Groq** - For providing fast LLaMA 3.1 inference
 - **AWS** - For serverless infrastructure
 - **Open Source Community** - For amazing tools and libraries
-
-## 📧 Contact
-
-- **Live Demo:** http://healthcare-triage-chatbot-website-997208471264.s3-website-us-east-1.amazonaws.com
-- **Issues:** [GitHub Issues](https://github.com/YOUR_USERNAME/healthcare-triage-chatbot/issues)
-- **Email:** your.email@example.com
 
 ## ⚠️ Disclaimer
 
