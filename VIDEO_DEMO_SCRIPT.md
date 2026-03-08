@@ -4,33 +4,23 @@
 
 ---
 
-## 📋 Demo Scenario 1: Simple Symptom Analysis (1 minute)
+## 📋 Demo Scenario 1: Low Severity - Cold (30 seconds)
 
-**Purpose:** Show basic conversation flow and follow-up questions
+**Purpose:** Show basic symptom assessment with self-care advice
 
-### Input Sequence:
+### Input:
 
-**You:** `I have a headache`
+**You:** `I have Cold`
 
-**Bot Response:** Will ask about duration
-
-**You:** `About 2 days`
-
-**Bot Response:** Will ask about severity
-
-**You:** `It's pretty bad, maybe a 7 out of 10`
-
-**Bot Response:** Will ask about other symptoms
-
-**You:** `I also feel a bit nauseous`
-
-**Bot Response:** Will provide triage assessment (MODERATE severity)
+**Bot Response:** 
+- **Severity Badge:** LOW (green)
+- **Advice:** "Manage your symptoms with over-the-counter medications such as pain relievers, decongestants, and cough suppressants. Stay hydrated by drinking plenty of fluids, and consider using a humidifier to relieve congestion. Rest and practice good hygiene to prevent the spread of the cold virus. If symptoms worsen or persist, consider consulting a doctor for further guidance."
 
 **What This Shows:**
-- ✅ Multi-turn conversation
-- ✅ Follow-up questions
-- ✅ Context awareness
-- ✅ Severity assessment
+- ✅ Quick symptom assessment
+- ✅ LOW severity classification
+- ✅ Self-care recommendations
+- ✅ Clear, actionable advice
 
 ---
 
@@ -38,57 +28,41 @@
 
 **Purpose:** Show life-saving emergency detection feature
 
-### Input Sequence:
+### Input:
 
-**You:** `I have some discomfort in my chest`
-
-**Bot Response:** Will ask to describe the discomfort
-
-**You:** `It's a sharp pain and I'm sweating`
+**You:** `I have chest pain and difficulty in breathing`
 
 **Bot Response:** 🚨 **IMMEDIATE EMERGENCY ALERT**
-- "⚠️ CALL 911 IMMEDIATELY"
-- "Chest pain can be a sign of a heart attack"
+- **Severity Badge:** SEVERE (red)
+- **Alert:** "Call 911 or go to the nearest emergency room immediately. Your symptoms may indicate a medical emergency that requires immediate professional attention."
 
 **What This Shows:**
-- ✅ Emergency detection across messages
-- ✅ Pattern recognition ("chest" + "pain")
-- ✅ Immediate critical response
+- ✅ Instant emergency recognition
+- ✅ SEVERE severity classification
+- ✅ Immediate 911 recommendation
 - ✅ Life-saving capability
+- ✅ No unnecessary delays
 
 ---
 
-## 💬 Demo Scenario 3: Conversational Context (1 minute)
+## 💬 Demo Scenario 3: Moderate Severity - Fever (45 seconds)
 
-**Purpose:** Show how bot remembers conversation history
+**Purpose:** Show moderate severity assessment with doctor recommendation
 
-### Input Sequence:
+### Input:
 
-**You:** `I've been feeling tired lately`
+**You:** `I have fever`
 
-**Bot Response:** Will ask about duration
-
-**You:** `For about a week`
-
-**Bot Response:** Will ask about other symptoms
-
-**You:** `Yes, I have a fever too`
-
-**Bot Response:** Will ask about fever severity
-
-**You:** `It's around 101°F`
-
-**Bot Response:** Will ask if anything else
-
-**You:** `The tiredness is really affecting my work`
-
-**Bot Response:** Will reference previous mentions and provide comprehensive assessment
+**Bot Response:**
+- **Severity Badge:** MODERATE (orange)
+- **Advice:** "If you have a fever, it's essential to assess its severity. If your temperature is above 102°F (39°C) and lasts for more than 3-4 days, or if you experience other symptoms such as chills, headache, or body aches, consider visiting your primary care physician within the next 24-48 hours. In the meantime, try to stay hydrated by drinking plenty of fluids, such as water, clear broths, or electrolyte-rich beverages. You can also take over-the-counter medications like acetaminophen or ibuprofen to help reduce your fever..."
 
 **What This Shows:**
-- ✅ Remembers "tiredness" from first message
-- ✅ Connects multiple symptoms
-- ✅ Context-aware responses
-- ✅ Natural conversation flow
+- ✅ MODERATE severity classification
+- ✅ Detailed assessment criteria
+- ✅ Timeline for doctor visit (24-48 hours)
+- ✅ Self-care instructions
+- ✅ Medication recommendations
 
 ---
 

@@ -179,27 +179,49 @@ See [DEPLOYMENT_GUIDE.md](docs/DEPLOYMENT_GUIDE.md) for detailed instructions.
 
 ## 💡 Usage Examples
 
-### Example 1: Simple Symptom
+### Example 1: Low Severity - Cold Symptoms
 ```
-User: "I have a headache"
-Bot: "I understand you have a headache. How long have you been experiencing this?"
-User: "About 2 days"
-Bot: "On a scale of 1-10, how severe is the pain?"
-User: "About a 7"
-Bot: "Based on your symptoms, I recommend seeing a doctor within 24 hours..."
+User: "I have Cold"
+
+Bot Response:
+Severity: LOW ✅
+
+"Manage your symptoms with over-the-counter medications such as pain relievers, 
+decongestants, and cough suppressants. Stay hydrated by drinking plenty of fluids, 
+and consider using a humidifier to relieve congestion. Rest and practice good 
+hygiene to prevent the spread of the cold virus. If symptoms worsen or persist, 
+consider consulting a doctor for further guidance."
 ```
 
-### Example 2: Emergency Detection
+### Example 2: Severe - Emergency Detection 🚨
 ```
-User: "I have chest discomfort"
-Bot: "Can you describe the discomfort?"
-User: "It's a sharp pain"
-Bot: "⚠️ CALL 911 IMMEDIATELY. Chest pain can be a sign of a heart attack..."
+User: "I have chest pain and difficulty in breathing"
+
+Bot Response:
+Severity: SEVERE ⚠️
+
+"Call 911 or go to the nearest emergency room immediately. Your symptoms may 
+indicate a medical emergency that requires immediate professional attention."
 ```
 
-### Example 3: API Usage
+### Example 3: Moderate Severity - Fever
+```
+User: "I have fever"
+
+Bot Response:
+Severity: MODERATE ⚠️
+
+"If you have a fever, it's essential to assess its severity. If your temperature 
+is above 102°F (39°C) and lasts for more than 3-4 days, or if you experience 
+other symptoms such as chills, headache, or body aches, consider visiting your 
+primary care physician within the next 24-48 hours. In the meantime, try to stay 
+hydrated by drinking plenty of fluids, such as water, clear broths, or 
+electrolyte-rich beverages..."
+```
+
+### Example 4: API Usage
 ```bash
-curl -X POST https://YOUR_API_ENDPOINT/prod/triage \
+curl -X POST https://z6tufnwdj4.execute-api.us-east-1.amazonaws.com/prod/triage \
   -H "Content-Type: application/json" \
   -d '{"symptoms": "I have a fever and cough"}'
 ```
@@ -223,6 +245,24 @@ pytest --cov=backend --cov-report=html
 ```
 
 **Current Coverage:** 80%+ line coverage
+
+## 📸 Screenshots
+
+### Low Severity Response
+![Cold Symptoms - LOW severity with self-care recommendations](docs/screenshots/low-severity.png)
+
+### Emergency Detection
+![Chest Pain - SEVERE severity with immediate 911 alert](docs/screenshots/emergency.png)
+
+### Moderate Severity
+![Fever - MODERATE severity with doctor visit recommendation](docs/screenshots/moderate-severity.png)
+
+**Features Shown:**
+- ✅ Severity badges (LOW, MODERATE, SEVERE)
+- ✅ Color-coded responses (green, orange, red)
+- ✅ Clear, actionable medical advice
+- ✅ Emergency detection with immediate alerts
+- ✅ Professional medical disclaimer
 
 ## 💰 Cost Analysis
 
