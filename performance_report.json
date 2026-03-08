@@ -1,0 +1,263 @@
+{
+  "test_date": "2026-03-08T05:58:51.415451",
+  "api_endpoint": "https://z6tufnwdj4.execute-api.us-east-1.amazonaws.com/prod/triage",
+  "total_tests": 30,
+  "analysis": {
+    "total_requests": 30,
+    "successful": 30,
+    "failed": 0,
+    "success_rate": 100.0,
+    "response_times": {
+      "min": 1614.950180053711,
+      "max": 3450.073480606079,
+      "mean": 2433.429765701294,
+      "median": 2315.621495246887,
+      "p50": 2317.1563148498535,
+      "p90": 3357.1839332580566,
+      "p95": 3358.631372451782,
+      "p99": 3450.073480606079
+    }
+  },
+  "raw_results": [
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 3137.49361038208,
+      "message": "I have a headache",
+      "timestamp": "2026-03-08T05:58:15.259669",
+      "response_size": 348
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 1864.051103591919,
+      "message": "I have chest pain",
+      "timestamp": "2026-03-08T05:58:17.630150",
+      "response_size": 188
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2371.7615604400635,
+      "message": "I'm feeling tired and have a fever",
+      "timestamp": "2026-03-08T05:58:20.505433",
+      "response_size": 501
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2333.848714828491,
+      "message": "I have a sore throat and cough",
+      "timestamp": "2026-03-08T05:58:23.346363",
+      "response_size": 468
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2433.992385864258,
+      "message": "I'm experiencing nausea and dizziness",
+      "timestamp": "2026-03-08T05:58:26.285118",
+      "response_size": 460
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 3124.659776687622,
+      "message": "I have a headache",
+      "timestamp": "2026-03-08T05:58:29.919484",
+      "response_size": 326
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 1639.1105651855469,
+      "message": "I have chest pain",
+      "timestamp": "2026-03-08T05:58:32.063990",
+      "response_size": 188
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2385.5342864990234,
+      "message": "I'm feeling tired and have a fever",
+      "timestamp": "2026-03-08T05:58:34.952258",
+      "response_size": 540
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2003.4191608428955,
+      "message": "I have a sore throat and cough",
+      "timestamp": "2026-03-08T05:58:37.459606",
+      "response_size": 413
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2208.6920738220215,
+      "message": "I'm experiencing nausea and dizziness",
+      "timestamp": "2026-03-08T05:58:40.176192",
+      "response_size": 586
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2763.2110118865967,
+      "message": "I have a headache",
+      "timestamp": "2026-03-08T05:58:43.445686",
+      "response_size": 345
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2902.592897415161,
+      "message": "I have chest pain",
+      "timestamp": "2026-03-08T05:58:43.585932",
+      "response_size": 188
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 3357.1839332580566,
+      "message": "I'm feeling tired and have a fever",
+      "timestamp": "2026-03-08T05:58:44.041400",
+      "response_size": 487
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 3358.631372451782,
+      "message": "I'm experiencing nausea and dizziness",
+      "timestamp": "2026-03-08T05:58:44.044879",
+      "response_size": 545
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 3450.073480606079,
+      "message": "I have a sore throat and cough",
+      "timestamp": "2026-03-08T05:58:44.134956",
+      "response_size": 596
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2285.8242988586426,
+      "message": "I have a headache",
+      "timestamp": "2026-03-08T05:58:45.732746",
+      "response_size": 439
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2200.3989219665527,
+      "message": "I have chest pain",
+      "timestamp": "2026-03-08T05:58:45.790151",
+      "response_size": 188
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2623.084783554077,
+      "message": "I have a sore throat and cough",
+      "timestamp": "2026-03-08T05:58:46.670155",
+      "response_size": 497
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2641.5908336639404,
+      "message": "I'm feeling tired and have a fever",
+      "timestamp": "2026-03-08T05:58:46.685212",
+      "response_size": 473
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2634.298801422119,
+      "message": "I'm experiencing nausea and dizziness",
+      "timestamp": "2026-03-08T05:58:46.773322",
+      "response_size": 574
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 1761.4283561706543,
+      "message": "I have chest pain",
+      "timestamp": "2026-03-08T05:58:47.553635",
+      "response_size": 188
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2112.0078563690186,
+      "message": "I have a headache",
+      "timestamp": "2026-03-08T05:58:47.846794",
+      "response_size": 366
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2291.220188140869,
+      "message": "I have a sore throat and cough",
+      "timestamp": "2026-03-08T05:58:48.979816",
+      "response_size": 378
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2314.086675643921,
+      "message": "I'm feeling tired and have a fever",
+      "timestamp": "2026-03-08T05:58:48.987167",
+      "response_size": 568
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2317.1563148498535,
+      "message": "I'm experiencing nausea and dizziness",
+      "timestamp": "2026-03-08T05:58:49.093029",
+      "response_size": 591
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 1614.950180053711,
+      "message": "I have chest pain",
+      "timestamp": "2026-03-08T05:58:49.463280",
+      "response_size": 188
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2009.596586227417,
+      "message": "I have a headache",
+      "timestamp": "2026-03-08T05:58:49.565726",
+      "response_size": 346
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2274.260997772217,
+      "message": "I'm feeling tired and have a fever",
+      "timestamp": "2026-03-08T05:58:51.255721",
+      "response_size": 489
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2294.157028198242,
+      "message": "I have a sore throat and cough",
+      "timestamp": "2026-03-08T05:58:51.284071",
+      "response_size": 458
+    },
+    {
+      "success": true,
+      "status_code": 200,
+      "response_time_ms": 2294.5752143859863,
+      "message": "I'm experiencing nausea and dizziness",
+      "timestamp": "2026-03-08T05:58:51.389869",
+      "response_size": 525
+    }
+  ]
+}
