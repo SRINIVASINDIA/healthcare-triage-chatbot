@@ -247,21 +247,53 @@ pytest --cov=backend --cov-report=html
 
 ## 📸 Screenshots
 
-### Low Severity Response
-![Cold Symptoms - LOW severity with self-care recommendations](docs/screenshots/low-severity.png)
+### 1. Low Severity - Cold Symptoms ✅
+**User Input:** "I have Cold"
 
-### Emergency Detection
-![Chest Pain - SEVERE severity with immediate 911 alert](docs/screenshots/emergency.png)
+**Response Features:**
+- 🟢 GREEN badge displaying "LOW" severity
+- Self-care recommendations (OTC medications, hydration, rest)
+- Guidance on when to consult a doctor
+- Clear, actionable advice for home management
 
-### Moderate Severity
-![Fever - MODERATE severity with doctor visit recommendation](docs/screenshots/moderate-severity.png)
+![Low Severity Example](docs/screenshots/low-severity.png)
 
-**Features Shown:**
-- ✅ Severity badges (LOW, MODERATE, SEVERE)
-- ✅ Color-coded responses (green, orange, red)
-- ✅ Clear, actionable medical advice
-- ✅ Emergency detection with immediate alerts
-- ✅ Professional medical disclaimer
+---
+
+### 2. Severe - Emergency Detection 🚨
+**User Input:** "I have chest pain and difficulty in breathing"
+
+**Response Features:**
+- 🔴 RED badge displaying "SEVERE" severity
+- Immediate emergency alert: "Call 911 or go to the nearest emergency room immediately"
+- No delays - instant critical symptom recognition
+- Life-saving emergency detection system
+
+![Emergency Detection Example](docs/screenshots/emergency.png)
+
+---
+
+### 3. Moderate Severity - Fever ⚠️
+**User Input:** "I have fever"
+
+**Response Features:**
+- 🟠 ORANGE badge displaying "MODERATE" severity
+- Specific temperature thresholds (102°F / 39°C)
+- Timeline for doctor visit (24-48 hours)
+- Detailed self-care instructions with medication recommendations
+- Clear criteria for when to seek medical attention
+
+![Moderate Severity Example](docs/screenshots/moderate-severity.png)
+
+---
+
+**Key Features Demonstrated:**
+- ✅ Three-tier severity classification (LOW, MODERATE, SEVERE)
+- ✅ Color-coded visual indicators for quick assessment
+- ✅ Instant emergency detection with immediate 911 alerts
+- ✅ Detailed, actionable medical guidance
+- ✅ Professional medical disclaimer on all responses
+- ✅ Context-aware AI responses using Groq LLaMA 3.1
 
 ## 💰 Cost Analysis
 
